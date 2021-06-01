@@ -67,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
 class PersonService {
   static Future<Iterable<Person>> getPersons(String query) async {
     var url = Uri.parse(
-        'https://raw.githubusercontent.com/mpoffo/FLutterTests/4898decbd4d1d8aa97f882c4102b7dbe4247e383/person.json');
+        'https://raw.githubusercontent.com/mpoffo/oneonone-flutter/main/person.json');
 
     // Await the http get response, then decode the json-formatted response.
     try {
