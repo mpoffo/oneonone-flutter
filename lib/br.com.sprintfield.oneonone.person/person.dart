@@ -7,7 +7,8 @@ class PersonService {
 
     // Await the http get response, then decode the json-formatted response.
     try {
-      var response = await http.get(url);
+      var response =
+          await http.get(url, headers: {"Content-Type": "application/json"});
       if (response.statusCode == 200) {
         var result = List.from(convert.jsonDecode(response.body))
             .map((e) => Person.fromJson(e))
