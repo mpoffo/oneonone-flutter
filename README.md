@@ -1,6 +1,9 @@
 # Demo One on One
 - [Acesse](https://mpoffo.github.io/oneonone-flutter/build/web/#/)
-# flutter_helloworld
+
+# To deploy on Heroku
+Após commit e push no git
+heroku buildpacks:set diezep/flutter -a oneonone-front
 
 A new Flutter project.
 
