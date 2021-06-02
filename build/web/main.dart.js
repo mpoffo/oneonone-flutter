@@ -14038,7 +14038,7 @@ _.c=i},
 qc:function qc(){},
 V7:function(a){var s=0,r=P.a3(t.n5),q,p=2,o,n=[],m,l,k,j,i,h,g,f
 var $async$V7=P.Z(function(b,c){if(b===1){o=c
-s=p}while(true)switch(s){case 0:g=P.vV("https://raw.githubusercontent.com/mpoffo/oneonone-flutter/main/person.json")
+s=p}while(true)switch(s){case 0:g=P.vV("https://oneonone-back.herokuapp.com/api/pessoas")
 p=4
 s=7
 return P.a7(G.asI(g),$async$V7)
