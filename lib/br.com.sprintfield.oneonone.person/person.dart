@@ -3,7 +3,7 @@ import 'dart:convert' as convert;
 
 class PersonService {
   static Future<Iterable<Person>> getPersons(String query) async {
-    var url = Uri.parse('https://oneonone-back.herokuapp.com/api/pessoas');
+    var url = Uri.https('oneonone-back.herokuapp.com', '/api/pessoas/');
 
     // Await the http get response, then decode the json-formatted response.
     try {
@@ -30,7 +30,7 @@ class Person {
   Person(this.name);
 
   factory Person.fromJson(dynamic json) {
-    return Person(json['name'] as String);
+    return Person(json['nome'] as String);
   }
 
   @override
