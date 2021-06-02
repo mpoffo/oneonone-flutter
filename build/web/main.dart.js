@@ -14070,7 +14070,7 @@ s=p}while(true)switch(s){case 0:g=P.aqq("https","oneonone-back.herokuapp.com","/
 p=4
 j=t.N
 s=7
-return P.a7(G.asK(g,P.aq(["Content-Type","application/json"],j,j)),$async$V7)
+return P.a7(G.asK(g,P.aq(["Content-Type","application/json; charset=utf-8"],j,j)),$async$V7)
 case 7:m=c
 if(m.b===200){j=m
 j=P.c2(C.aT.Im(0,B.asC(U.aqO(j.e).c.a.h(0,"charset")).dj(0,j.x),null),!0,t.z)
