@@ -4,6 +4,7 @@ import 'dart:convert' as convert;
 class PersonService {
   static Future<Iterable<Person>> getPersons(String query) async {
     var url = Uri.https('oneonone-back.herokuapp.com', '/api/pessoas/');
+    //var url = Uri.parse('person.json');
 
     // Await the http get response, then decode the json-formatted response.
     try {
